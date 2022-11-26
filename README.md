@@ -1,5 +1,5 @@
 # Cocktails React Basic Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Preview Cocktails React Basic Project [Create React App](https://magnificent-babka-766f62.netlify.app/).
 
 ## Developer : Mohammadali Zarei
