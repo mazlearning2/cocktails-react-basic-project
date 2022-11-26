@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "custom-font";
+    src: url("./../fonts/Tanha-FD.ttf");
+}
+
+:root {
+    --bodyColor: #81ecec2a;
+    --tileColor: #1abc9c;
+    --tileDarkColor: #16a085;
+    --greenColor: #2ecc71;
+    --greenDarkColor: #27ae60;
+    --blueColor: #3498db;
+    --blueDarkColor: #2980b9;
+    --purpleColor: #9b59b6;
+    --purpleDarkColor: #8e44ad;
+    --darkColor: #34495e;
+    --darkDarkColor: #2c3e50;
+    --yellowColor: #f1c40f;
+    --yellowDarkColor: #f39c12;
+    --orangeColor: #e67e22;
+    --orangeDarkColor: #d35400;
+    --redColor: #e74c3c;
+    --redDarkColor: #c0392b;
+    --lightColor: #ecf0f1;
+    --lightDarkColor: #bdc3c7;
+    --whiteColor: #ffffff;
+    --grayColor: #95a5a6;
+    --grayDarkColor: #7f8c8d;
+    --witeColor: #ffffff;
+    --shadowColor: #bdc3c793;
+    --shadowColor2: #bdc3c74d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+::-webkit-scrollbar {
+    transition: all 200ms linear;
+    width: 0;
+}
+
+body {
+    font-family: "custom-font";
+    background-color: var(--lightColor);
+    /* background: linear-gradient(45deg, #2193b011, #6dd5ed28); */
+    user-select: none;
+    transition: all 300ms ease;
+}
+
+input,
+section,
+textarea,
+option,
+select,
+button {
+    font-family: "custom-font";
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+/* helpers */
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 1rem; */
+    /* padding-right: 1rem; */
+}
+
+@media only screen and (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}

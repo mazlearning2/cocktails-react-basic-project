@@ -1,0 +1,21 @@
+.loading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border-top: 3rem solid var(--greenColor);
+    box-shadow: 0 0 .5rem var(--shadowColor2);
+    background-color: var(--whiteColor);
+    margin: 2rem 0;
+    animation: rotate-loading-animation 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) .5s infinite alternate;
+}
+
+@keyframes rotate-loading-animation {
+    100%{
+        transform: rotate(1turn);
+    }
+}

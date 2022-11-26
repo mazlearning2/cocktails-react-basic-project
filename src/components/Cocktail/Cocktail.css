@@ -1,0 +1,73 @@
+.cocktail {
+    width: 30rem;
+    padding: .5rem;
+    margin: 1rem;
+    border-radius: .3rem;
+    box-shadow: 0 0 .5rem var(--shadowColor2);
+    background-color: var(--whiteColor);
+    transition: all 200ms ease-in-out;
+}
+.cocktail:hover{
+    transform: scale(1.03);
+}
+
+.cocktail-image {
+    width: 100%;
+    height: 20rem;
+    border-radius: .5rem;
+    background-color: var(--lightColor);
+}
+
+.cocktail-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+.cocktail-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: .5rem;
+}
+
+.cocktail-title {
+    font-size: 2.3rem;
+    color: var(--darkColor);
+}
+
+.cocktail-sub-title {
+    font-size: 1.3rem;
+    padding: .5rem 0;
+    color: var(--greenColor);
+}
+
+.cocktail-span {
+    font-size: 1rem;
+    color: var(--grayColor);
+    padding: 1rem 0;
+}
+
+.cocktail-button {
+    border: 0;
+    outline: 0;
+    padding: .7rem;
+    background-color: var(--greenColor);
+    border-radius: .3rem;
+    color: var(--lightColor);
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.4rem;
+    transition: all 200ms ease-in-out;
+}
+
+.cocktail-button:hover {
+    background-color: var(--greenDarkColor);
+}
+
+@media only screen and (max-width: 568px) {
+    .cocktail {
+        width: 100%;
+    }
+}

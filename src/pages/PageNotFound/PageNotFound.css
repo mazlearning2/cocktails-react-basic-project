@@ -1,0 +1,19 @@
+.container-not-found{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.not-found-title{
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    color: var(--orangeColor);
+}
+.not-found-link{
+    font-size: 1.5rem;
+    color: var(--darkColor);
+    transition: all 200ms ease-in-out;
+}
+.not-found-link:hover{
+    color: var(--greenColor);
+}
